@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="js.js"></script>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="keyboard">
+            <div class="key" id="q">q</div>
+            <div class="key" id="w">w</div>
+            <div class="key" id="e">e</div>
+            <div class="key" id="r">r</div>
+            <div class="key" id="t">t</div>
+            <div class="key" id="y">y</div>
+            <div class="key" id="u">u</div>
+            <div class="key" id="i">i</div>
+            <div class="key" id="o">o</div>
+            <br/>
+            <div class="key" id="q">a</div>
+            <div class="key" id="w">s</div>
+            <div class="key" id="e">d</div>
+            <div class="key" id="r">f</div>
+            <div class="key" id="t">g</div>
+            <div class="key" id="y">h</div>
+            <div class="key" id="u">j</div>
+            <div class="key" id="i">k</div>
+            <div class="key" id="o">l</div>
+            <br/>
+            <div class="key" id="q">z</div>
+            <div class="key" id="w">x</div>
+            <div class="key" id="e">c</div>
+            <div class="key" id="r">v</div>
+            <div class="key" id="t">b</div>
+            <div class="key" id="y">n</div>
+            <div class="key" id="u">m</div>
+            
+
+        </div>
+        <div class="records">
+            <div class="recordHolder">
+                <div id="status1">0</div>
+                <button id="B1" onclick="playRecord(1)">Graj 1</button><button id="rB1" onclick="startRecord(1)">Nagraj 1</button>
+            </div>
+            <div class="recordHolder">
+                <div id="status2">0</div>
+                <button id="B2" onclick="playRecord(2)">Graj 2</button><button id="rB2" onclick="startRecord(2)">Nagraj 2</button>
+            </div>
+            <div class="recordHolder">
+                <div id="status3">0</div>
+                <button id="B3" onclick="playRecord(3)">Graj 3</button><button id="rB3" onclick="startRecord(3)">Nagraj 3</button>
+            </div>
+            <div class="recordHolder">
+                <div id="status4">0</div>
+                <button id="B4" onclick="playRecord(4)">Graj 4</button><button id="rB4" onclick="startRecord(4)">Nagraj 4</button>
+            </div>
+        </div>
+    </div>
+    <script>loadAudio();</script>
+</body>
+</html>
